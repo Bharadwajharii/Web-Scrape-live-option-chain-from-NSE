@@ -2,6 +2,10 @@ import requests
 import json
 from datetime import datetime
 url = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY'
+"""
+Banknifty:-https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY
+Other Stock:-https://www.nseindia.com/api/option-chain-equities?symbol=ADANIENT
+"""
 headers = {'User-Agent': 'Mozilla/5.0'}
 page = requests.get(url,headers=headers,verify=False)
 data = json.loads(page.text)
