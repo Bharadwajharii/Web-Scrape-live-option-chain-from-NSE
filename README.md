@@ -1,1 +1,1 @@
-# Web-Scrape-live-option-chain-from-NSE-
+A simple program to scrape option data of Nifty,Banknifty or any other stock
